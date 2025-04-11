@@ -8,7 +8,7 @@ function makeBubble() {
         rd = Math.floor(Math.random() * 10);
         clutter += `<div class="bubble">${rd}</div>`
     }
-    document.querySelector("#pannelBottom").innerHTML = clutter;
+    document.querySelector("#pannelBottom").innerHTML = clutter; 
 }
 
 function timeRun() {
